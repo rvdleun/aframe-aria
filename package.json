@@ -1,0 +1,16 @@
+{
+  "name": "aframe-aria",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack index.js dist/aframe-aria.js && webpack -p index.js dist/aframe-aria.min.js",
+    "dev": "budo index.js:dist/aframe-aria.min.js --port 7000 --live --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^10.0.4"
+  }
+}
